@@ -191,6 +191,7 @@ platform_check_image() {
 	ap147-010 | \
 	ap152 | \
 	ap96 | \
+	apple-k31 | \
 	bxu2000n-2-a1 | \
 	db120 | \
 	dr344 | \

@@ -422,6 +422,9 @@ ar71xx_board_detect() {
 	*AP83)
 		name="ap83"
 		;;
+	*"APPLE-K31")
+		name="apple-k31"
+		;;
 	*"Archer C5")
 		name="archer-c5"
 		;;

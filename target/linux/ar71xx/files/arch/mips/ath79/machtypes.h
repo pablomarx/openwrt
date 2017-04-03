@@ -41,6 +41,7 @@ enum ath79_mach_type {
 	ATH79_MACH_AP81,		/* Atheros AP81 reference board */
 	ATH79_MACH_AP83,		/* Atheros AP83 */
 	ATH79_MACH_AP96,		/* Atheros AP96 */
+	ATH79_MACH_APPLE_K31, 		/* Apple Airport Express A1392 */
 	ATH79_MACH_ARCHER_C5,		/* TP-LINK Archer C5 board */
 	ATH79_MACH_ARCHER_C7,		/* TP-LINK Archer C7 board */
 	ATH79_MACH_ARCHER_C7_V2,	/* TP-LINK Archer C7 V2 board */

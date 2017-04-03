@@ -198,6 +198,19 @@ config ATH79_MACH_AP96
 	select ATH79_DEV_M25P80
 	select ATH79_DEV_USB
 
+config ATH79_MACH_APPLE_K31
+	bool "Apple Airport Express A1392"
+	select SOC_AR933X
+	select ATH79_DEV_ETH
+	select ATH79_DEV_GPIO_BUTTONS
+	select ATH79_DEV_LEDS_GPIO
+	select ATH79_DEV_M25P80
+	select ATH79_DEV_USB
+	select ATH79_DEV_WMAC
+	help
+	  Say 'Y' here if you want your kernel to support the
+	  Apple Airport Express A1392.
+
 config ATH79_MACH_PB42
 	bool "Atheros PB42 board support"
 	select SOC_AR71XX
